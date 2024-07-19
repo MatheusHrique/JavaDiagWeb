@@ -1,10 +1,16 @@
-C:\Users\04590876060\Documents\NetBeansProjects\DiagWebMVC\src\main\java\com\mycompany\diagweb\TelaPesquisarDoenca.java
-C:\Users\04590876060\Documents\NetBeansProjects\DiagWebMVC\src\main\java\com\mycompany\diagweb\DiagWeb.java
-C:\Users\04590876060\Documents\NetBeansProjects\DiagWebMVC\src\main\java\com\mycompany\diagweb\TelaPesquisarSintoma.java
-C:\Users\04590876060\Documents\NetBeansProjects\DiagWebMVC\src\main\java\com\mycompany\locadoradecarros\util\connectionBanco.java
-C:\Users\04590876060\Documents\NetBeansProjects\DiagWebMVC\src\main\java\com\mycompany\diagweb\TelaVincularDoenca.java
-C:\Users\04590876060\Documents\NetBeansProjects\DiagWebMVC\src\main\java\com\mycompany\diagweb\TelaCadastrarSintoma.java
-C:\Users\04590876060\Documents\NetBeansProjects\DiagWebMVC\src\main\java\com\mycompany\diagweb\TelaDetectarDoenca.java
-C:\Users\04590876060\Documents\NetBeansProjects\DiagWebMVC\src\main\java\com\mycompany\diagweb\TelaHome.java
-C:\Users\04590876060\Documents\NetBeansProjects\DiagWebMVC\src\main\java\com\mycompany\diagweb\TelaPesquisarVinculo.java
-C:\Users\04590876060\Documents\NetBeansProjects\DiagWebMVC\src\main\java\com\mycompany\diagweb\TelaCadastrarDoenca.java
+C:\Users\04590876060\Desktop\projetos github\DiagWebJava\DiagWeb\src\main\java\view\TelaCadastrarSintoma.java
+C:\Users\04590876060\Desktop\projetos github\DiagWebJava\DiagWeb\src\main\java\model\SintomaDAO.java
+C:\Users\04590876060\Desktop\projetos github\DiagWebJava\DiagWeb\src\main\java\controller\doencaController.java
+C:\Users\04590876060\Desktop\projetos github\DiagWebJava\DiagWeb\src\main\java\view\TelaPesquisarSintoma.java
+C:\Users\04590876060\Desktop\projetos github\DiagWebJava\DiagWeb\src\main\java\model\DoencaDAO.java
+C:\Users\04590876060\Desktop\projetos github\DiagWebJava\DiagWeb\src\main\java\model\Sintoma.java
+C:\Users\04590876060\Desktop\projetos github\DiagWebJava\DiagWeb\src\main\java\view\TelaPesquisarDoenca.java
+C:\Users\04590876060\Desktop\projetos github\DiagWebJava\DiagWeb\src\main\java\com\mycompany\diagweb\DiagWeb.java
+C:\Users\04590876060\Desktop\projetos github\DiagWebJava\DiagWeb\src\main\java\view\TelaHome.java
+C:\Users\04590876060\Desktop\projetos github\DiagWebJava\DiagWeb\src\main\java\controller\sintomaController.java
+C:\Users\04590876060\Desktop\projetos github\DiagWebJava\DiagWeb\src\main\java\view\TelaDetectarDoenca.java
+C:\Users\04590876060\Desktop\projetos github\DiagWebJava\DiagWeb\src\main\java\model\Doenca.java
+C:\Users\04590876060\Desktop\projetos github\DiagWebJava\DiagWeb\src\main\java\view\TelaVincularDoenca.java
+C:\Users\04590876060\Desktop\projetos github\DiagWebJava\DiagWeb\src\main\java\view\TelaPesquisarVinculo.java
+C:\Users\04590876060\Desktop\projetos github\DiagWebJava\DiagWeb\src\main\java\view\TelaCadastrarDoenca.java
+C:\Users\04590876060\Desktop\projetos github\DiagWebJava\DiagWeb\src\main\java\com\mycompany\util\connectionBanco.java

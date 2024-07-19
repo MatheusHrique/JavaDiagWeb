@@ -4,6 +4,8 @@
 
 package com.mycompany.diagweb;
 
+import view.TelaHome;
+
 /**
  *
  * @author 04590876060

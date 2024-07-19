@@ -1,4 +1,4 @@
-package com.mycompany.locadoradecarros.util;
+package com.mycompany.util;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

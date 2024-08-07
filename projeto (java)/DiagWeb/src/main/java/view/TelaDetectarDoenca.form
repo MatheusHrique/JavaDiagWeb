@@ -56,12 +56,12 @@
                       <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
                               <Group type="103" groupAlignment="1" attributes="0">
-                                  <Component id="btnSalvar1" alignment="1" min="-2" pref="150" max="-2" attributes="0"/>
-                                  <Component id="btnSalvar2" alignment="1" min="-2" pref="150" max="-2" attributes="0"/>
+                                  <Component id="btnDetectar" alignment="1" min="-2" pref="150" max="-2" attributes="0"/>
+                                  <Component id="btnAdicionar" alignment="1" min="-2" pref="150" max="-2" attributes="0"/>
                               </Group>
                               <EmptySpace type="separate" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="btnSalvar3" alignment="0" min="-2" pref="150" max="-2" attributes="0"/>
+                                  <Component id="btnPesquisar" alignment="0" min="-2" pref="150" max="-2" attributes="0"/>
                                   <Component id="btnCancelar" alignment="0" min="-2" pref="150" max="-2" attributes="0"/>
                               </Group>
                           </Group>
@@ -87,12 +87,12 @@
                   <Component id="jScrollPane2" min="-2" pref="143" max="-2" attributes="0"/>
                   <EmptySpace pref="20" max="32767" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="btnSalvar3" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
-                      <Component id="btnSalvar2" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                      <Component id="btnPesquisar" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                      <Component id="btnAdicionar" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace type="separate" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="btnSalvar1" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                      <Component id="btnDetectar" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
                       <Component id="btnCancelar" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
@@ -101,7 +101,7 @@
         </DimensionLayout>
       </Layout>
       <SubComponents>
-        <Component class="javax.swing.JButton" name="btnSalvar1">
+        <Component class="javax.swing.JButton" name="btnDetectar">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Lucida Fax" size="12" style="0"/>
@@ -119,7 +119,7 @@
             <Property name="focusPainted" type="boolean" value="false"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnSalvar1ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnDetectarActionPerformed"/>
           </Events>
         </Component>
         <Component class="javax.swing.JButton" name="btnCancelar">
@@ -164,7 +164,7 @@
             <Property name="text" type="java.lang.String" value="Digite o sintoma:"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JButton" name="btnSalvar2">
+        <Component class="javax.swing.JButton" name="btnAdicionar">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Lucida Fax" size="12" style="0"/>
@@ -182,10 +182,10 @@
             <Property name="focusPainted" type="boolean" value="false"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnSalvar2ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAdicionarActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JButton" name="btnSalvar3">
+        <Component class="javax.swing.JButton" name="btnPesquisar">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Lucida Fax" size="12" style="0"/>
@@ -203,7 +203,7 @@
             <Property name="focusPainted" type="boolean" value="false"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnSalvar3ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnPesquisarActionPerformed"/>
           </Events>
         </Component>
         <Container class="javax.swing.JScrollPane" name="jScrollPane1">

@@ -292,6 +292,7 @@ public class TelaPesquisarVinculo extends javax.swing.JFrame {
     }//GEN-LAST:event_txtPesquisarActionPerformed
 
     private void btnAlterarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAlterarActionPerformed
+        //IMPLEMENTAÇÃO NÃO FINALIZADA
         int selectedRow = tblDados.getSelectedRow();
         if (selectedRow != -1) {
             //qint id = (int) tblDados.getValueAt(selectedRow, 0);

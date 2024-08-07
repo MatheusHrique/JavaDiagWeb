@@ -31,12 +31,12 @@ public class TelaDetectarDoenca extends javax.swing.JFrame {
     private void initComponents() {
 
         jpanelInput1 = new javax.swing.JPanel();
-        btnSalvar1 = new javax.swing.JButton();
+        btnDetectar = new javax.swing.JButton();
         btnCancelar = new javax.swing.JButton();
         txtPesquisar = new javax.swing.JTextField();
         lblTexto = new javax.swing.JLabel();
-        btnSalvar2 = new javax.swing.JButton();
-        btnSalvar3 = new javax.swing.JButton();
+        btnAdicionar = new javax.swing.JButton();
+        btnPesquisar = new javax.swing.JButton();
         jScrollPane1 = new javax.swing.JScrollPane();
         tblSintomas = new javax.swing.JTable();
         jScrollPane2 = new javax.swing.JScrollPane();
@@ -49,15 +49,15 @@ public class TelaDetectarDoenca extends javax.swing.JFrame {
 
         jpanelInput1.setBackground(new java.awt.Color(153, 153, 255));
 
-        btnSalvar1.setFont(new java.awt.Font("Lucida Fax", 0, 12)); // NOI18N
-        btnSalvar1.setText("Identificar doença");
-        btnSalvar1.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 10, 1, 1, new java.awt.Color(0, 0, 0)));
-        btnSalvar1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSalvar1.setEnabled(false);
-        btnSalvar1.setFocusPainted(false);
-        btnSalvar1.addActionListener(new java.awt.event.ActionListener() {
+        btnDetectar.setFont(new java.awt.Font("Lucida Fax", 0, 12)); // NOI18N
+        btnDetectar.setText("Identificar doença");
+        btnDetectar.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 10, 1, 1, new java.awt.Color(0, 0, 0)));
+        btnDetectar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnDetectar.setEnabled(false);
+        btnDetectar.setFocusPainted(false);
+        btnDetectar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSalvar1ActionPerformed(evt);
+                btnDetectarActionPerformed(evt);
             }
         });
 
@@ -84,27 +84,27 @@ public class TelaDetectarDoenca extends javax.swing.JFrame {
         lblTexto.setFont(new java.awt.Font("Lucida Fax", 0, 12)); // NOI18N
         lblTexto.setText("Digite o sintoma:");
 
-        btnSalvar2.setFont(new java.awt.Font("Lucida Fax", 0, 12)); // NOI18N
-        btnSalvar2.setText("Adicionar");
-        btnSalvar2.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 10, 1, 1, new java.awt.Color(0, 0, 0)));
-        btnSalvar2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSalvar2.setEnabled(false);
-        btnSalvar2.setFocusPainted(false);
-        btnSalvar2.addActionListener(new java.awt.event.ActionListener() {
+        btnAdicionar.setFont(new java.awt.Font("Lucida Fax", 0, 12)); // NOI18N
+        btnAdicionar.setText("Adicionar");
+        btnAdicionar.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 10, 1, 1, new java.awt.Color(0, 0, 0)));
+        btnAdicionar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnAdicionar.setEnabled(false);
+        btnAdicionar.setFocusPainted(false);
+        btnAdicionar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSalvar2ActionPerformed(evt);
+                btnAdicionarActionPerformed(evt);
             }
         });
 
-        btnSalvar3.setFont(new java.awt.Font("Lucida Fax", 0, 12)); // NOI18N
-        btnSalvar3.setText("Pesquisar");
-        btnSalvar3.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 10, 1, 1, new java.awt.Color(0, 0, 0)));
-        btnSalvar3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        btnSalvar3.setEnabled(false);
-        btnSalvar3.setFocusPainted(false);
-        btnSalvar3.addActionListener(new java.awt.event.ActionListener() {
+        btnPesquisar.setFont(new java.awt.Font("Lucida Fax", 0, 12)); // NOI18N
+        btnPesquisar.setText("Pesquisar");
+        btnPesquisar.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 10, 1, 1, new java.awt.Color(0, 0, 0)));
+        btnPesquisar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnPesquisar.setEnabled(false);
+        btnPesquisar.setFocusPainted(false);
+        btnPesquisar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSalvar3ActionPerformed(evt);
+                btnPesquisarActionPerformed(evt);
             }
         });
 
@@ -159,11 +159,11 @@ public class TelaDetectarDoenca extends javax.swing.JFrame {
                     .addGroup(jpanelInput1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                         .addGroup(jpanelInput1Layout.createSequentialGroup()
                             .addGroup(jpanelInput1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                .addComponent(btnSalvar1, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(btnSalvar2, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(btnDetectar, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(btnAdicionar, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGap(18, 18, 18)
                             .addGroup(jpanelInput1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(btnSalvar3, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(btnPesquisar, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addComponent(btnCancelar, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)))
                         .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
                         .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))
@@ -183,11 +183,11 @@ public class TelaDetectarDoenca extends javax.swing.JFrame {
                 .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 143, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 20, Short.MAX_VALUE)
                 .addGroup(jpanelInput1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(btnSalvar3, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btnSalvar2, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(btnPesquisar, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnAdicionar, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addGroup(jpanelInput1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(btnSalvar1, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnDetectar, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(btnCancelar, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(43, 43, 43))
         );
@@ -234,9 +234,9 @@ public class TelaDetectarDoenca extends javax.swing.JFrame {
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
-    private void btnSalvar1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSalvar1ActionPerformed
-
-    }//GEN-LAST:event_btnSalvar1ActionPerformed
+    private void btnDetectarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDetectarActionPerformed
+        //IMPLEMENTAÇÃO NÃO FINALIZADA
+    }//GEN-LAST:event_btnDetectarActionPerformed
 
     private void btnCancelarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCancelarActionPerformed
         this.dispose();
@@ -247,13 +247,13 @@ public class TelaDetectarDoenca extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_txtPesquisarActionPerformed
 
-    private void btnSalvar2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSalvar2ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_btnSalvar2ActionPerformed
+    private void btnAdicionarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAdicionarActionPerformed
+        //IMPLEMENTAÇÃO NÃO FINALIZADA
+    }//GEN-LAST:event_btnAdicionarActionPerformed
 
-    private void btnSalvar3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSalvar3ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_btnSalvar3ActionPerformed
+    private void btnPesquisarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnPesquisarActionPerformed
+        //IMPLEMENTAÇÃO NÃO FINALIZADA
+    }//GEN-LAST:event_btnPesquisarActionPerformed
 
     /**
      * @param args the command line arguments
@@ -292,10 +292,10 @@ public class TelaDetectarDoenca extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton btnAdicionar;
     private javax.swing.JButton btnCancelar;
-    private javax.swing.JButton btnSalvar1;
-    private javax.swing.JButton btnSalvar2;
-    private javax.swing.JButton btnSalvar3;
+    private javax.swing.JButton btnDetectar;
+    private javax.swing.JButton btnPesquisar;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;

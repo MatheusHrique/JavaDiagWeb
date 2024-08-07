@@ -1,0 +1,65 @@
+CREATE DATABASE diagweb;
+USE diagweb;
+
+CREATE TABLE Doencas(
+id_doencas INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+nome VARCHAR(100),
+descricao VARCHAR(300)
+) ENGINE=INNODB;
+
+CREATE TABLE Sintomas(
+id_sintomas INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+nome VARCHAR(100),
+descricao VARCHAR(300)
+) ENGINE=INNODB;
+
+CREATE TABLE DoencasSintomas(
+id_doencasSintomas INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+id_sintomas INT,
+id_doencas INT, 
+FOREIGN KEY (id_sintomas) REFERENCES Sintomas(id_sintomas),
+FOREIGN KEY (id_doencas) REFERENCES Doencas(id_doencas) 
+) ENGINE=INNODB;
+
+DELETE FROM DoencasSintomas WHERE id_doencasSintomas = 2;
+
+SELECT * FROM Sintomas;
+SELECT * FROM Doencas;
+SELECT * FROM DoencasSintomas;
+TRUNCATE TABLE DoencasSintomas;
+
+SELECT * FROM Sintomas WHERE id_sintomas LIKE 1;
+
+DELIMITER //
+
+CREATE PROCEDURE VerificarSintomaEDoenca(
+    IN p_id_sintoma INT,
+    IN p_id_doenca INT,
+    OUT p_resultado TINYINT(1)
+)
+BEGIN
+    DECLARE sintoma_existe INT;
+    DECLARE doenca_existe INT;
+
+    -- Verificar se o sintoma existe
+    SELECT COUNT(*) INTO sintoma_existe
+    FROM Sintomas
+    WHERE id_sintomas = p_id_sintoma;
+
+    -- Verificar se a doença existe
+    SELECT COUNT(*) INTO doenca_existe
+    FROM Doencas
+    WHERE id_doencas = p_id_doenca;
+
+    -- Verificar se ambos existem e definir o resultado
+    IF sintoma_existe > 0 AND doenca_existe > 0 THEN
+        SET p_resultado = 1;  -- TRUE
+    ELSE
+        SET p_resultado = 0;  -- FALSE
+    END IF;
+END //
+
+DELIMITER ;
+
+CALL VerificarSintomaEDoenca(1, 1, @resultado);
+SELECT @resultado;
